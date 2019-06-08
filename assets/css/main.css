@@ -2840,6 +2840,7 @@ input, select, textarea {
 			line-height: 1;
 			margin-left: 1.5em;
 			padding: 0 0 0 1.5em;
+			color: white;
 		}
 
 			ul.menu > li:first-child {
