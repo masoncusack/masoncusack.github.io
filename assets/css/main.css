@@ -3024,7 +3024,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #4BBAFB;
 				content: '';
 				display: block;
 				height: 100%;
