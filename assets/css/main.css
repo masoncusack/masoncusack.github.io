@@ -3242,7 +3242,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-image: url("/assets/css/images/main-background-image.JPG");
+			background-color: #261c3e;
+			/*background-image: url("/assets/css/images/main-background-image.JPG"); TODO: try to get working between main banner and contact section*/
 		}
 
 		.wrapper.style1-alt {
