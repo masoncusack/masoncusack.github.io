@@ -3366,6 +3366,16 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+/*Custom IDs*/
+
+	#projects-text{
+		color: #B09A5F;
+	}
+
+	#blog-text{
+		color: #B09A5F;
+	}
+
 /* Header */
 
 	#header {
