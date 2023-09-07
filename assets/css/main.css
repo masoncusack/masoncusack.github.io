@@ -199,7 +199,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #01AB88;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -1894,7 +1894,7 @@ input, select, textarea {
 		.button:active {
 			background-color: rgba(73, 252, 212, 0.25);
 			box-shadow: inset 0 0 0 2px #2ee4bb;
-			color: #2ee4bb !important;
+			color: #01B194 !important;
 		}
 
 		input[type="submit"].small,
@@ -1961,7 +1961,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #49fcd4;
+			background-color: #01B194;
 			box-shadow: none;
 			color: #000000 !important;
 		}
@@ -2764,6 +2764,7 @@ input, select, textarea {
 				}
 
 				ul.icons li .icon:hover {
+					color: #2ee4bb;
 					background-color: rgba(144, 144, 144, 0.1);
 				}
 
