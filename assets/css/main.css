@@ -58,6 +58,25 @@ h1, h2 {
   line-height: 1.1;
 }
 
+/* ---- Hero intro animations ---- */
+
+.site.revealed .hero-text {
+  animation: fadeSlideUp 1.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.site.revealed .hero-img-wrap {
+  animation: fadeSlideUp 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both;
+}
+
+.site.revealed .scroll-hint {
+  animation: fadeSlideUp 1s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* ---- Site container ---- */
 
 .site {
@@ -77,6 +96,12 @@ h1, h2 {
   gap: 1.5rem;
   position: relative;
   padding-bottom: 3rem;
+}
+
+.hero-text,
+.hero-img-wrap,
+.hero > .scroll-hint {
+  opacity: 0;
 }
 
 .hero h1 {
